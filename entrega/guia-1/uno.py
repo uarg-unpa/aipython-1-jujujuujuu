@@ -20,9 +20,19 @@ print("Ethan", "Butterfield", "15", sep="_")
 print("calle\t \n número \n \t código postal")
 
 # j)
-str = "Feliz\t \n Primavera \n \t 2023."
-print(str)
+s = "Feliz\t \n Primavera \n \t 2023."
+print(s)
 
 # k)
 print("Solo podemos ver poco del futuro", end=", ")
 print("pero lo suficiente para darnos cuenta de que hay mucho que hacer")
+
+# l)
+print("    *")
+print("   * *")
+print("  *   *")
+print(" *     *")
+print("***   ***")
+print("  *   *")
+print("  *   *")
+print("  *****")
