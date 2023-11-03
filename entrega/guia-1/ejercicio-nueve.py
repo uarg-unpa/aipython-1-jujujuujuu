@@ -1,5 +1,5 @@
-def calcularIMC(peso, altura):
-    return peso*(altura**2)
+def calcularIMC(p, a):
+    return p*(a**2)
 
 imc = None
 continuar = True
