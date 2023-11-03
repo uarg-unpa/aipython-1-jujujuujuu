@@ -28,10 +28,7 @@ while continuar:
 
         ingresos = int(input("Ingrese sus ingresos mensuales ($): "))
 
-        if edad >= 18 and ingresos >= 100000:
-            debe_pagar = True
-        else:
-            debe_pagar = False
+        debe_pagar = edad >= 18 and ingresos >= 100000
 
         print("\n"*20)
     else:
