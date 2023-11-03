@@ -19,7 +19,7 @@ while continuar:
     opcion = int(input("Ingrese opción: "))
     
     #validacion de opcion
-    while opcion < 1 or opcion > 2:
+    while opcion < 1 or opcion > 3:
         opcion = int(input("Eleccion erronea, reingrese por favor: "))
 
     if opcion == 1:
