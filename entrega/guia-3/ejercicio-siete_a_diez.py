@@ -20,3 +20,10 @@ print()
 # 9)
 for i in range(10):
     print(f"{i} x {i} = {i*i}")
+
+print()
+
+# 10)
+for i in range(7):
+    for j in range(7):
+        print(i, j)
