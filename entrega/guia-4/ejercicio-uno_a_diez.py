@@ -21,3 +21,23 @@ datos_personales.append("Ethan Butterfield")
 datos_personales.append(15)
 datos_personales.append(1.62)
 datos_personales.append("Rio Gallegos, Santa Cruz, Argentina")
+datos_personales.append("Soltero")
+
+# 7)
+companias_favoritas = ["Roblox", "DICE", "Felfort", "Microsoft", "SpaceX", "Fazbear Ent."]
+
+# 8)
+for dato in datos_personales:
+    print(dato)
+
+print()
+
+# 9)
+for i in range(len(companias_favoritas)):
+    print(i, companias_favoritas[i])
+
+print()
+
+# 10)
+companias_favoritas[5] = "NVidia"
+print(companias_favoritas)
